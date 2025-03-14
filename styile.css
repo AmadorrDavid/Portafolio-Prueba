@@ -57,4 +57,18 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: #000;
+    
+}
+
+.presentation__enlaces__link:hover{
+    background-color: #ffffff;
+    color: #000;
+    transition: background-color 0.5s;
+    
+}
+
+.profile__photo{
+    height: 500px;
+    width: 520px;
+    
 }
