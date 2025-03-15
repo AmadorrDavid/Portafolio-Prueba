@@ -11,6 +11,21 @@ body {
     color: #f6f6f6;
     box-sizing: border-box;
 }
+.header{
+    padding: 3% 0% 0% 12%;
+}
+
+.header__Menu{
+    display: flex;
+    gap: 85px;
+}
+
+.header__Menu__Click{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
 
 .titulo-destaque {
     color: #FFB200;
@@ -24,7 +39,7 @@ body {
 .presentation {
     display: flex;
     align-items: center;
-    margin: 10% 12%;
+    padding: 6% 12%;
     justify-content: space-between;
 }
 
@@ -91,6 +106,8 @@ body {
 .icon{
     width: 30px;
 }
+
+
 
 .downpage{
     background-color: #FFB200;
